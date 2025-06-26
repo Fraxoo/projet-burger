@@ -32,8 +32,8 @@ p{
 
 .ognion1{
     position: absolute;
-     top: -7px;
-    right: 768px;
+     top: -31px;
+    right: 1123px;
     width: 208px;
     height: auto;
     z-index: 1;
@@ -42,9 +42,9 @@ p{
 
 .ognion2{
     position: absolute;
-    top: 501px;
-    right: 141px;
-    width: 103px;
+    top: 587px;
+    right: 199px;
+    width: 171px;
     height: auto;
     z-index: 1;
 }
