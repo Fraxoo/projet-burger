@@ -103,12 +103,12 @@ p{
 .about-section h3{
     font-size: 100px;
     color: rgb(72, 72, 72);
-    padding: 20px;
+    padding: 5px 15px 5px 15px;
 }
 
 .about-section p{
     font-size: 50px;
     color: black;
     font-style: italic;
-    padding: 20px;
+    padding: 5px 15px 5px 15px;
 }
