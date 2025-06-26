@@ -3,14 +3,20 @@
 
 }
 
+img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
 body { 
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  margin-left: 0px
+  margin-left: 0px;
+
 }
 
-h1,h2{
+h1{
     font-size: 100px;
     color: white;
 }
@@ -27,36 +33,82 @@ p{
     background: linear-gradient(to right, #8B0000, #8B4513);
     display: flex;
     align-items: center;
-    padding: 200px 100px 200px 300px;
+    padding: 100px 100px 100px 300px;
     align-content: center;
-
-    
-    
-}
-
-.map-section{
-    background-color: rgb(206, 93, 0);
-    display: flex;
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-section{
-    background-color: beige;
-    display: flex;
-    justify-content: center;
-
 }
 
 #best{
     font-size: 50px;
 }
 
-.reseau img{
-        float: left;
-    width:  5%;
-    height: 5%;
-    object-fit: contain;
+
+.map-section{
+    background-color: #f38435;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6px;
+    justify-content: space-evenly;
+    margin: 0px;
+
+}
+
+.map-section h2{
+    font-size: 100px;
+    color: white;
+    margin: 0px 0px 50px 0px;
+}
+
+.map-section p{
+    font-size: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    
+}
+
+.reseaux{
+    padding-top: 16px;
+    display: flex;
+    width: 200px;
+    height: 100px
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-section{
+    background-color: rgb(238, 227, 168);
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-section h3{
+    font-size: 100px;
+    color: rgb(72, 72, 72);
+    padding: 20px;
+}
+
+.about-section p{
+    font-size: 50px;
+    color: black;
+    font-style: italic;
+    padding: 20px;
 }
